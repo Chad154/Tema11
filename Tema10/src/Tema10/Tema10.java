@@ -41,12 +41,13 @@ public class Tema10 {
     public static void main(String[] args){
         
         //Se añade java.util.ArrayList
-        System.out.println("ArrayList"+rellenar(new ArrayList()));
+        System.out.println("ArrayList"+rellenar(new ArrayList())); //Devuelve todos los elementos por orden de Insercion
         //Se añade java.util.HashSet
-        System.out.println("HashSet"+rellenar(new HashSet()));
+        System.out.println("HashSet"+rellenar(new HashSet())); //Devuelve Los elementos sin repetir
         //Se añade java.util.HashMap
-        System.out.println("HashMap"+rellenar(new HashMap()));
+        System.out.println("HashMap"+rellenar(new HashMap())); //Devuelve el Map Empezando por el final sin repetir
         
+        // Fin Main
     }
     
 }
