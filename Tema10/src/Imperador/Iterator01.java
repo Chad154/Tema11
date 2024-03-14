@@ -51,8 +51,11 @@ public class Iterator01 {
         lista03.set(0, "Sara Gonzalez");
         lista03.set(1,"Juan Torres");
         lista03.set(2,"Elena Sanchez");
+        lista03.add("David");
         
         System.out.println("Lista03 modificada"+lista03 + ",");
+        // Con el .size nos muestra la longitud de la lista
+        System.out.println("Lista: "+ lista03.size());
         System.out.println();
         
         //Como imprimir un elemento especifico .get(Numero del elemento)
@@ -63,6 +66,24 @@ public class Iterator01 {
         
         lista03.remove(1);
         System.out.println("Lista con un elemento menos: "+lista03+",");
+        // Con el .size nos muestra la longitud de la lista
+        System.out.println("Lista: "+ lista03.size());
+        
+        //Elimina todos los Elementos que contengan David
+        
+        lista03.remove("David");
+        System.out.println("Lista con el elemento David eliminado" + lista03 + ",");
+        // Con el .size nos muestra la longitud de la lista
+        
+        System.out.println("Lista: "+ lista03.size());
+        
+        //Eliminamos todos los elementos de la lista
+        
+        lista03.removeAll(lista03);
+        
+        System.out.println("Lista: "+lista03);
+        // Con el .size nos muestra la longitud de la lista
+        System.out.println("Lista: "+ lista03.size());
     }
     
 }
