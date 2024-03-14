@@ -54,6 +54,15 @@ public class Iterator01 {
         
         System.out.println("Lista03 modificada"+lista03 + ",");
         System.out.println();
+        
+        //Como imprimir un elemento especifico .get(Numero del elemento)
+        
+        System.out.println("Elemento 2 de la lista: "+lista03.get(1));
+        
+        //Eliminar un elemento de la lista con .remove
+        
+        lista03.remove(1);
+        System.out.println("Lista con un elemento menos: "+lista03+",");
     }
     
 }
