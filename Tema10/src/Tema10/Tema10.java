@@ -34,6 +34,7 @@ public class Tema10 {
         m.put("perro", "San Bernardo");
         m.put("gato", "Montes");
         m.put("perro", "Presa Canario");
+        System.out.println(m.size());
         
         return m;
     }
