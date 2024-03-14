@@ -15,7 +15,8 @@ public class Mapa01 {
     
     public static void main(String[] args) {
         
-        //Mapa 
+        //Hay que importar java.util.Map 
+        //La K se refiere al numero de elemento y v al elemento
         
         Map<Integer,String> mapaDAM1 = Map.of(1, "Teclado", 2, "Monitor",3,"CPU");
         
