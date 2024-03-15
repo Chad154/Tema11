@@ -32,8 +32,19 @@ public class listasBidimensionales {
         lista01.get(1).add(2);
         lista01.get(2).add(4);
         lista01.get(2).add(8);
+        lista01.get(2).add(2);
         
         System.out.println("Lista 2D: "+ lista01);
+        
+        //Para hacer la Impresion sin corchetes
+        
+        for (ArrayList<Integer> list:lista01){
+            for (Integer i1: list){
+                System.out.printf("%s ", i1);
+                
+            }
+        }
+        
     
     }
     
