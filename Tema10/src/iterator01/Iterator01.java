@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Imperador;
+package iterator01;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -83,7 +83,8 @@ public class Iterator01 {
         
         System.out.println("Lista: "+lista03);
         // Con el .size nos muestra la longitud de la lista
-        System.out.println("Lista: "+ lista03.size());
-    }
-    
+       System.out.println("Lista: "+ lista03.size());
+       
+     }
+     
 }
